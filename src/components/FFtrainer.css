@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=REM:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Noto+Sans&family=REM:wght@300&display=swap');
+
+/* ---------------------------TRAINER SECTION-------------------------------------------- */
+.trainer-heading{
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.trainer-heading::before{
+    position: absolute;
+  content: "";
+  height: 4px;
+  background-color: red;
+  width: 23%;
+  bottom: 0;
+}
+.trainer {
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .trainer .heading {
+    color: #fff;
+  }
+  
+  .trainer .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .trainer .box-container .box {
+    position: relative;
+    box-shadow: 0 0.6rem 0.7rem #000;
+    border: 1px solid black;
+    margin: 2% auto;
+  }
+  
+  .trainer .box-container .box img {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    background-position: center;
+  }
+  #andre{
+    overflow: hidden;
+  }
+  #kai{
+    overflow: hidden;
+  }
+  #sergi{
+    overflow: hidden;
+  }
+  #nikki{
+    overflow: hidden;
+  }
+  /* .trainer .box-container .box img:hover{
+  transform: scale(1.5);
+  transition: 4s;
+  transition-delay: 0.5s;
+  
+  } */
+  .trainer .box-container .box .info {
+    color: #333;
+    background: #fff;
+    border-top: 0.3rem solid rgb(253, 42, 5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .trainer .box-container .box .share {
+    position: absolute;
+    top: 1rem;
+    right: -100%;
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .trainer .box-container .box:hover .share {
+    right: 0;
+  }
+  
+  .trainer .box-container .box .share a {
+    height: 4rem;
+    width: 4.5rem;
+    line-height: 4rem;
+    color: #333;
+    font-size: 2rem;
+    background: #fff;
+    margin: 0.5rem 1rem;
+  }
+  
+  .trainer .box-container .box .share a:hover {
+    background: var(--orange);
+    color: #fff;
+  }
+  
+  /* ---------------------------PLAN SECTION-------------------------------------------- */
+  .pricing-header p {
+    max-width: 77vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.card-body{
+  background-color: #242424;
+  color: white;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+.card:hover{
+  transition: all .2s linear;
+  transform: scale(1.1);
+}
+.card-body>ul li{
+  margin: 21px auto
+}
+#Membership{
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Membership::before{
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: red;
+  width: 100%;
+  bottom: 0;
+}
+  .plan {
+    min-height: 100vh;
+    text-align: center;
+    background: #eee;
+  }
+  
+  .plan .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .plan .box-container .box {
+    background: rgb(209, 201, 201);
+    margin: 2rem;
+    width: 30rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.71);
+  }
+  
+  .plan .box-container .box:hover {
+    transform: scale(1.04);
+  }
+  
+  .plan .box-container .box .title {
+    font-size: 2.5rem;
+    background: var(--orange);
+    color: rgb(104, 112, 31);
+    padding: 1rem 0;
+  }
+  
+  .plan .box-container .box .price {
+    font-size: 4rem;
+    color: #333;
+    padding-top: 1rem;
+  }
+  
+  .plan .box-container .box .price span {
+    font-size: 2rem;
+  }
+  
+  .plan .box-container .box .month {
+    font-size: 2rem;
+    color: #666;
+  }
+  
+  .plan .box-container .box ul {
+    margin: 2rem 8rem;
+    list-style: none;
+  }
+  
+  .plan .box-container .box ul li {
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .plan .box-container .box ul li i {
+    color: var(--orange);
+    padding: 0 0.5rem;
+  }
+  
+  .plan .box-container .box .btn {
+    margin-bottom: 3rem;
+    height: 43px;
+    width: 110px;
+    border: 2px solid black;
+    border-radius: 4px ;
+    background: rgba(8, 8, 8, 0.781);
+    color: whitesmoke;
+  }
+  .plan .box-container .box .btn:hover{
+    background-color:#615e5e;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+    transition: 0.5 s;
+  
+  }
