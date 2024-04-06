@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=REM:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@900&family=Noto+Sans&family=REM:wght@300&display=swap');
+
+/* ---------------------------TRAINER SECTION-------------------------------------------- */
+#trainer{
+  margin-top: 11%;
+}
+.trainer-heading{
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.trainer-heading::before{
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: red;
+  width: 100%;
+  bottom: 0;
+}
+.trainer {
+  text-align: center;
+  margin-top: 80px;
+  }
+  
+  .trainer .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+  }
+  
+  .trainer .box-container .box {
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.6);
+    margin: 4% auto;
+  }
+  .trainer .box-container .box img {
+    height: 370px;
+    width: 310px;
+}
+.overlay-content{
+  padding: 15px 15px;
+}
+.overlay-content>h3{
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.overlay-content>p{
+  color: #d4d1d1;
+  margin-bottom: 30px;
+}
+.overlay-content .link-body-emphasis{
+  background-color: white;
+  padding: 6px 7px;
+  border-radius: 50%;
+}
+.overlay-content .link-body-emphasis:hover,
+.overlay-content .fa-brands:hover{
+  color:  wheat;
+  background-color: red;
+  transition: all .2s linear;
+}
+.overlay-content .link-body-emphasis:hover
+.overlay-content .fa-brands{
+  color:  wheat;
+}
+  .Trainer-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+    transition: .5s linear;
+  }
+  .box:hover .Trainer-overlay{
+    opacity:0.85;
+  }
+  /* ---------------------------PLAN SECTION-------------------------------------------- */
+  .pricing-header p {
+    max-width: 77vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.card-header{
+  background-color: #242424;
+  color: wheat;
+}
+div#gold {
+  background-color: gold;
+  color: black;
+}
+.w-50.btn-sm{
+  border-radius: 20px;
+  padding: 8px 0;
+}
+.card{
+  border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0,0.5);
+}
+.card-body{
+  background-color: #242424;
+  color: white;
+  cursor: pointer;
+  transition: all .5s linear;
+  padding-bottom: 40px;
+}
+.card:hover{
+  transition: all .2s linear;
+  transform: scale(1.1);
+}
+.card-body>ul li{
+  margin: 21px auto
+}
+#Membership{
+  position: relative;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Membership::before{
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: red;
+  width: 100%;
+  bottom: 0;
+}
+
+ 
