@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
-  const [isSideMenuOpen, setMenu] = useState(false);
+  const [isSideMenuOpen, setMenu] = useState(true);
   return (
     <>
       <header>
@@ -33,7 +33,10 @@ const Navbar = () => {
                 <NavLink to="/trainer">trainer</NavLink>
               </li>
               <li className="item-1" id="login">
-                <button className = "bg-transparent border-0 text-white">Login</button>
+                <button onClick={()=>{
+                  alert('hello')
+                }}
+                className = "bg-transparent border-0 text-white">Login</button>
               </li>
               <span id="bar">
                 <i
@@ -58,19 +61,19 @@ const Navbar = () => {
             id="closebar"/>
             <ul>
             <li className=" sidebar-list">
-                <a href="/">Home</a>
+            <NavLink to="/">Home</NavLink>
               </li>
               <li className=" sidebar-list">
-                <a href="/">Contact</a>
+              <NavLink to="/about">About</NavLink>
               </li>
               <li className=" sidebar-list">
-                <a href="/">About</a>
+              <NavLink to="/service">Services</NavLink>
               </li>
               <li className=" sidebar-list">
-                <a href="/">Services</a>
+              <NavLink to="/products">Products</NavLink>
               </li>
               <li className="sidebar-list">
-                <a href="/">login</a>
+              <NavLink to="/trainer">trainer</NavLink>
               </li>
             </ul>
           </section>

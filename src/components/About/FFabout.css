@@ -70,8 +70,26 @@
   transform: scale(1.1);
   box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.514);
 }
+
+/* *********** responsive *************** */
+
 @media screen and (max-width: 992px) {
   .about-content {
    flex-wrap: wrap;
 }
+}
+@media screen and (max-width: 768px) {
+  .box-content {
+  margin-top: 20px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  clip-path: none;
+}
+}
+@media screen and (max-width:568px) {
+  .about-btn{
+    width: 100%;
+  }
 }

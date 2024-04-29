@@ -16,13 +16,6 @@ const Productsection = () => {
         delay: 100,
       });
     }, []);
-      // const settings = {
-      //   dots: true,
-      //   infinite: true,
-      //   speed: 500,
-      //   slidesToShow: 4,
-      //   slidesToScroll: 1
-      // };
     var settings = {
       dots: true,
       infinite: true,
@@ -32,21 +25,37 @@ const Productsection = () => {
       initialSlide: 0,
       responsive: [
         {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: false,
+            arrows : true
+          },
           breakpoint: 1024,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots: true,
-            arrows : false
+            dots: false,
+            arrows : true
+          }
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 1
           }
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
-            initialSlide: 1,
+            // initialSlide: 1,
             arrows : false
           }
         },
@@ -66,7 +75,7 @@ const Productsection = () => {
         <h1 data-aos="zoom-in">
           <span className="products-heading">Our products</span>
         </h1>
-        <div data-aos="zoom-in" className="pricing-header">
+        <div data-aos="zoom-in" className="pricing-header mb-5">
           <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Price section It’s Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ipsum labore quaerat similique</p>
         </div>
         <div className="container ">

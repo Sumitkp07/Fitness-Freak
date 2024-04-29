@@ -168,17 +168,27 @@ span#number {
   transform-origin: left;
 }
 /* ----- responsive --------------- */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1200px) {
   .list-parent li {
     margin: 0 12px;
   }
   .logo {
     margin-left: 3%;
+    font-size: 32px;
   }
 }
-@media screen and (max-width: 792px) {
+@media screen and (max-width: 968px) {
+  .list-parent li {
+    margin: 0 10px;
+  }
+  .logo {
+    margin-left: 3%;
+  }
+}
+@media screen and (max-width: 800px) {
   .sidebar-main{
     display: block;
+    position: fixed;
   }
   .list-parent .item-1{
     display: none;

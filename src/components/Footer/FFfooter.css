@@ -74,9 +74,12 @@ footer {
   height: 330px;
   width: 250px;
   box-sizing: border-box;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  /* margin-top: 50px;
+  margin-bottom: 20px; */
   padding: 13px;
+}
+.product-content{
+  margin: auto;
 }
 .product-image {
   width: 220px;

@@ -97,9 +97,10 @@ button.main-headline-login:hover {
     font-size: 30px;
   }
   h2.main-headline {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 900;
     margin: 0;
+    margin-bottom: 5px;
   }
   span.main-words {
     font-size: 20px;
@@ -119,6 +120,12 @@ button.main-headline-login:hover {
     font-size: 20px;
     font-weight: 600;
   }
+  button.main-headline-login {
+    padding: 7px 18px;
+      color: white;
+      font-size: 12px;
+      margin-top: 5px;
+}
 }
 @media screen and (max-width: 576px) {
   h2.main-headline {
@@ -148,6 +155,11 @@ button.main-headline-login:hover {
     transition: all .5s linear;
     margin-top: 10px;
   }
+  button.main-headline-login {
+    padding: 8px 11px;
+    font-size: 7px;
+
+}
 }
 
 @media screen and (max-width: 400px) {
@@ -167,14 +179,14 @@ button.main-headline-login:hover {
     margin-top: 20%;
   }
   button.main-headline-login {
-  background: rgb(0 0 0 / 48%);
-  border: 2px solid red;
-  border-radius: 20px;
-  padding: 5px 6px;
-  color: white;
-  font-size: 8px;
-  letter-spacing: 1.2px;
-  cursor: pointer;
-  transition: all .5s linear;
+    background: rgb(0 0 0 / 48%);
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 3px 8px;
+    color: white;
+    font-size: 6px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: all .5s linear;
 }
 }

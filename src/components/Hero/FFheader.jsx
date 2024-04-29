@@ -14,9 +14,9 @@ const FFheader = () => {
   useEffect(() => {
           Aos.init({
             offset: 200,
-            duration: 800,
+            duration: 500,
             easing: "ease-in-sine",
-            delay: 100,
+            delay: 80,
           });
   }, [])
   return (  
